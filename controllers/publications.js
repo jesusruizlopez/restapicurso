@@ -33,7 +33,7 @@ exports.editPublication = function(req, res) {
 };
 
 exports.getPublications = function(req, res) {
-  publicationModel.find().populate('user').exec()
+  publicationModel.find().populate('user').sort('-publicationDate').exec()
   .then(function(response) {
     res.send({success: true, publications: response});
   })
