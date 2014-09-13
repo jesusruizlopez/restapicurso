@@ -1,0 +1,23 @@
+{
+  "name": "APIFacebookApp",
+  "version": "0.0.1",
+  "description": "RESTful API para los servicios del curso práctico de iOS",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jesusruizlopez/restapicurso.git"
+  },
+  "author": "Jesús Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "method-override": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+}
